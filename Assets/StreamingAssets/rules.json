@@ -1,0 +1,55 @@
+{
+    "variant": [
+    {
+        "name": "Portuguese",
+        "langCode": "pt-PT",
+        "rules":
+        {
+            "boardSize": 8,
+            "checkerLongMove": true,
+            "pawnBackCapture": false,
+            "quantityRule": true,
+            "qualityRule": true,
+            "preferenceRule": false,
+            "specialRule":
+            {
+                
+            }
+        }
+    },
+    {
+        "name": "Anglo-American",
+        "langCode": "en-GB",
+        "rules":
+        {
+            "boardSize": 8,
+            "checkerLongMove": false,
+            "pawnBackCapture": false,
+            "quantityRule": false,
+            "qualityRule": false,
+            "preferenceRule": false,
+            "specialRule":
+            {
+                
+            }
+        }
+    },
+    {
+        "name": "International",
+        "langCode": "",
+        "rules":
+        {
+            "boardSize": 10,
+            "checkerLongMove": true,
+            "pawnBackCapture": true,
+            "quantityRule": true,
+            "qualityRule": false,
+            "preferenceRule": false,
+            "specialRule":
+            {
+                
+            }
+        }
+    },
+  ]
+}

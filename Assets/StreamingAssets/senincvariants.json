@@ -1,0 +1,40 @@
+{
+	"builds": [
+		{
+			"entity": {
+				"bluebird": {
+					"filename": {
+						"test": "unity-game-solitaire-bluebird-dev.apk",
+						"demo": "unity-game-solitaire-bluebird-demo.apk",
+						"prod": "unity-game-solitaire-bluebird.apk"
+					},
+					"packagename": {
+						"test": "com.sioslife.hidepixel.seninc.games.solitaire.dev",
+						"demo": "com.sioslife.hidepixel.seninc.games.solitaire.demo",
+						"prod": "com.sioslife.hidepixel.seninc.games.solitaire"
+					}
+				},
+				"redpanda": {
+					"filename": {
+						"test": "unity-game-solitaire-redpanda-dev.apk",
+						"demo": "unity-game-solitaire-redpanda-demo.apk",
+						"prod": "unity-game-solitaire-redpanda.apk"
+					},
+					"packagename": {
+						"test": "com.sioslife.hidepixel.seninc.games.solitaire.dev",
+						"demo": "com.sioslife.hidepixel.seninc.games.solitaire.demo",
+						"prod": "com.sioslife.hidepixel.seninc.games.solitaire"
+					}
+				}
+			},
+			"keystore": {
+				"name": "/Users/sioslife/keystores/hidepixel-store.keystore",
+				"password": "r9G0dSWcpEfjkLYXD6h6",
+				"release_key_alias": "hidepixel-release",
+				"release_key_password": "My99iNV3naDPZmpZGq47",
+				"debug_key_alias": "androiddebugkey",
+				"debug_key_password": "android"
+			}
+		}
+	]
+}

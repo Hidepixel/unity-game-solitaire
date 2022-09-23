@@ -1,0 +1,39 @@
+Key;Type;Desc;English (United Kingdom);Portuguese (Portugal);Spanish (Spain)
+
+UI/HEADER/TITLE;Text;;Checkers;Damas;Damas
+UI/HEADER/DESC;Text;;Conquer the other player pieces;Conquista as peças adversárias;Conquista las piezas del otro jugador
+
+POPUP/TUTORIAL/TEXT_1;Text;;Tutorial description;"Toque na peça branca para ver as 
+jogadas possíveis";Descripción del tutorial
+POPUP/TUTORIAL/TEXT_2;Text;;Tutorial description;"Mova a peça branca para fazer uma 
+jogada";Descripción del tutorial
+POPUP/TUTORIAL/TEXT_3;Text;;Tutorial description;"Agora aguarde que o outro jogador 
+faça uma jogada";Descripción del tutorial
+POPUP/TUTORIAL/TEXT_4;Text;;Tutorial description;"Agora mova a peça branca para 
+conquistar a peça do adversário";Descripción del tutorial
+POPUP/TUTORIAL/TEXT_5;Text;;Tutorial description;"Parabéns!
+Você conquistou a peça adversária!";Descripción del tutorial
+
+POPUP/ENDGAME/TITLE;Text;;End game title;"Prepare-se!
+O jogo vai começar!";Título
+
+GAME/TURN_LABEL/PLAYER;Text;;"It's your turn
+ <b>{[name]}</b>";"É a sua vez
+ <b>{[name]}</b>";"É a sua vez 
+ <b>{[name]}</b>"
+GAME/TURN_LABEL/AI;Text;;"It's 
+ <b>{[name]}'s</b> turn";"É a vez de
+ <b>{[name]}</b>";"É a vez de
+ <b>{[name]}</b>"
+
+ GAME/GRAVEYARD/PLAYER;Text;;"";"<b>{[name]}</b>
+ já conquistou:
+ <b>{[number]} peças</b>";""
+ GAME/GRAVEYARD/AI;Text;;"";"<b>Oponente</b>
+ já conquistou:
+ <b>{[number]} peças</b>";""
+
+POPUP/DOUBLE_PIECE/TITLE;Text;;{[player]};{[player]};{[player]}
+POPUP/DOUBLE_PIECE/DESC;Text;;Evolved to a double piece!;Evoluíu para uma peça dupla!;¡Evolucionado en una pieza doble!
+
+GAME/AI/NAME;Text;;Opponent;Oponente;Adversario

@@ -1,0 +1,56 @@
+Key;Type;Desc;English (United Kingdom);Portuguese (Portugal);Spanish (Spain)
+
+
+UI/PRELOAD/LOADING;Text;;Please wait...;"Aguarde, 
+por favor...";"Aguarde, 
+por favor..."
+
+UI/HEADER/BUTTON/EXIT;Text;;Exit;Sair;Salir
+UI/HEADER/USER/WELCOME;Text;;[{welcome}];[{bem-vindo}{bem-vinda}];[{bienvenido}{bienvenida}]
+UI/HEADER/USER/TIME;Text;;hours;horas;horas
+
+
+POPUP/EXIT/TITLE;Text;;Leave the game;Sair do jogo;Salir del juego
+POPUP/EXIT/DESC;Text;;Are you sure you want to leave the game?;Tem a certeza que quer sair do jogo?;¿Estás seguro de que quieres abandonar el juego?
+POPUP/EXIT/BUTTON/NO;Text;;No;Não;No
+POPUP/EXIT/BUTTON/YES;Text;;Yes;Sim;Si
+
+
+POPUP/LOSE/TITLE;Text;;{[player]} won the match.;{[player]} ganhou o jogo.;{[player]} ganó el juego.
+POPUP/LOSE/DESC;Text;;Shall we try a new match?;Vamos tentar uma nova partida?;¿Intentamos un nuevo partido?
+POPUP/LOSE/BUTTON/NO;Text;;No;Não;No
+POPUP/LOSE/BUTTON/YES;Text;;Yes;Sim;Si
+
+
+POPUP/WIN/TITLE;Text;;Congratulations!;Parabéns;¡Enhorabuena!
+POPUP/WIN/DESC;Text;;"{[player]} won the game!
+Would you like to play again?";"{[player]} ganhou o jogo.
+Pretende jogar outra vez?";"{[player]} ganó el juego.
+¿Quieres jugar de nuevo?"
+POPUP/WIN/BUTTON/CONTINUE;Text;;Play again;"Jogar
+outra vez";"Jugar
+de nuevo"
+
+POPUP/TOP_WIN/TITLE;Text;;Congratulations!;Parabéns;¡Enhorabuena!
+POPUP/TOP_WIN/DESC;Text;;"You have finished the game.
+Would you like to play again?";"Conseguiu ganhar o jogo.
+Pretende jogar outra vez?";"Has terminado el juego.
+¿Quieres jugar de nuevo?"
+POPUP/TOP_WIN/BUTTON/PLAY_AGAIN;Text;;Play again;"Jogar
+outra vez";"Jugar
+de nuevo"
+
+
+POPUP/NEWGAME/TITLE;Text;;New game;Novo jogo;Nuevo juego
+POPUP/NEWGAME/DESCRIPTION;Text;;Are you sure you want to start a new game?;Tem a certeza que pretende iniciar um novo jogo?;¿Seguro que quieres empezar un nuevo juego?
+POPUP/NEWGAME/BUTTON/NO;Text;;No;Não;No
+POPUP/NEWGAME/BUTTON/YES;Text;;Yes;Sim;Si
+
+MENU/PLAYER_STATS/VICTORIES;Text;;{[VICTORY_NUMBER]} victories[i2p_One]{[VICTORY_NUMBER]} victory;{[VICTORY_NUMBER]} vitórias[i2p_One]{[VICTORY_NUMBER]} vitória;{[VICTORY_NUMBER]} victorias[i2p_One]{[VICTORY_NUMBER]} victoria;
+MENU/PLAYER_STATS/NO_VICTORIES;Text;;you have no victories;não tem vitórias;no tiene victorias;
+
+FONTS/REGULAR;Font;;Montserrat-Regular;Montserrat-Regular;Montserrat-Regular
+FONTS/MEDIUM;Font;;Montserrat-Medium;Montserrat-Medium;Montserrat-Medium
+FONTS/SEMIBOLD;Font;;Montserrat-SemiBold;Montserrat-SemiBold;Montserrat-SemiBold
+FONTS/BOLD;Font;;Montserrat-Bold;Montserrat-Bold;Montserrat-Bold
+FONTS/EXTRABOLD;Font;;Montserrat-ExtraBold;Montserrat-ExtraBold;Montserrat-ExtraBold

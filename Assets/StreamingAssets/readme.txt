@@ -1,0 +1,1 @@
+Move senincvariants.json to the target project on StreamingAssets and complete it with the appropriate names on the parameters. You should add this file to .gitignore "/Assets/StreamingAssets/senincvariants.json" since it contains sensitive keystone information.

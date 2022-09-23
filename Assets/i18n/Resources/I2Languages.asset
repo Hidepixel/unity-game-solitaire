@@ -1,0 +1,460 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: UI/HEADER/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Checkers
+      - Damas
+      - Damas
+      Flags: 000000
+      Languages_Touch: []
+    - Term: UI/HEADER/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - Conquer the other player pieces
+      - "Conquista as pe\xE7as advers\xE1rias"
+      - Conquista las piezas del otro jugador
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TUTORIAL/TEXT_1
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial description
+      - "Toque na pe\xE7a branca para ver as \njogadas poss\xEDveis"
+      - "Descripci\xF3n del tutorial"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TUTORIAL/TEXT_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial description
+      - "Mova a pe\xE7a branca para fazer uma \njogada"
+      - "Descripci\xF3n del tutorial"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TUTORIAL/TEXT_3
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial description
+      - "Agora aguarde que o outro jogador \nfa\xE7a uma jogada"
+      - "Descripci\xF3n del tutorial"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TUTORIAL/TEXT_4
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial description
+      - "Agora mova a pe\xE7a branca para \nconquistar a pe\xE7a do advers\xE1rio"
+      - "Descripci\xF3n del tutorial"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TUTORIAL/TEXT_5
+      TermType: 0
+      Description: 
+      Languages:
+      - Tutorial description
+      - "Parab\xE9ns!\nVoc\xEA conquistou a pe\xE7a advers\xE1ria!"
+      - "Descripci\xF3n del tutorial"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/ENDGAME/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - End game title
+      - "Prepare-se!\nO jogo vai come\xE7ar!"
+      - "T\xEDtulo"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GAME/TURN_LABEL/PLAYER
+      TermType: 0
+      Description: 
+      Languages:
+      - "It's your turn\n <b>{[name]}</b>"
+      - "\xC9 a sua vez\n <b>{[name]}</b>"
+      - "\xC9 a sua vez \n <b>{[name]}</b>"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GAME/TURN_LABEL/AI
+      TermType: 0
+      Description: 
+      Languages:
+      - "It's \n <b>{[name]}'s</b> turn"
+      - "\xC9 a vez de\n <b>{[name]}</b>"
+      - "\xC9 a vez de\n <b>{[name]}</b>"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GAME/GRAVEYARD/PLAYER
+      TermType: 0
+      Description: 
+      Languages:
+      - '"'
+      - "<b>{[name]}</b>\n j\xE1 conquistou:\n <b>{[number]} pe\xE7as</b>"
+      - '"'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GAME/GRAVEYARD/AI
+      TermType: 0
+      Description: 
+      Languages:
+      - '"'
+      - "<b>Oponente</b>\n j\xE1 conquistou:\n <b>{[number]} pe\xE7as</b>"
+      - '"'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/DOUBLE_PIECE/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[player]}'
+      - '{[player]}'
+      - '{[player]}'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/DOUBLE_PIECE/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - Evolved to a double piece!
+      - "Evolu\xEDu para uma pe\xE7a dupla!"
+      - "\xA1Evolucionado en una pieza doble!"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GAME/AI/NAME
+      TermType: 0
+      Description: 
+      Languages:
+      - Opponent
+      - Oponente
+      - Adversario
+      Flags: 000000
+      Languages_Touch: []
+    - Term: UI/PRELOAD/LOADING
+      TermType: 0
+      Description: 
+      Languages:
+      - Please wait...
+      - "Aguarde, \npor favor..."
+      - "Aguarde, \npor favor..."
+      Flags: 000000
+      Languages_Touch: []
+    - Term: UI/HEADER/BUTTON/EXIT
+      TermType: 0
+      Description: 
+      Languages:
+      - Exit
+      - Sair
+      - Salir
+      Flags: 000000
+      Languages_Touch: []
+    - Term: UI/HEADER/USER/WELCOME
+      TermType: 0
+      Description: 
+      Languages:
+      - '[{welcome}]'
+      - '[{bem-vindo}{bem-vinda}]'
+      - '[{bienvenido}{bienvenida}]'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: UI/HEADER/USER/TIME
+      TermType: 0
+      Description: 
+      Languages:
+      - hours
+      - horas
+      - horas
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/EXIT/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Leave the game
+      - Sair do jogo
+      - Salir del juego
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/EXIT/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - Are you sure you want to leave the game?
+      - Tem a certeza que quer sair do jogo?
+      - "\xBFEst\xE1s seguro de que quieres abandonar el juego?"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/EXIT/BUTTON/NO
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "N\xE3o"
+      - No
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/EXIT/BUTTON/YES
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - Sim
+      - Si
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/LOSE/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[player]} won the match.'
+      - '{[player]} ganhou o jogo.'
+      - "{[player]} gan\xF3 el juego."
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/LOSE/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - Shall we try a new match?
+      - Vamos tentar uma nova partida?
+      - "\xBFIntentamos un nuevo partido?"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/LOSE/BUTTON/NO
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "N\xE3o"
+      - No
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/LOSE/BUTTON/YES
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - Sim
+      - Si
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/WIN/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Congratulations!
+      - "Parab\xE9ns"
+      - "\xA1Enhorabuena!"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/WIN/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[player]} won the game!
+
+        Would you like to play again?'
+      - '{[player]} ganhou o jogo.
+
+        Pretende jogar outra vez?'
+      - "{[player]} gan\xF3 el juego.\n\xBFQuieres jugar de nuevo?"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/WIN/BUTTON/CONTINUE
+      TermType: 0
+      Description: 
+      Languages:
+      - Play again
+      - 'Jogar
+
+        outra vez'
+      - 'Jugar
+
+        de nuevo'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TOP_WIN/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - Congratulations!
+      - "Parab\xE9ns"
+      - "\xA1Enhorabuena!"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TOP_WIN/DESC
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You have finished the game.
+
+        Would you like to play again?'
+      - 'Conseguiu ganhar o jogo.
+
+        Pretende jogar outra vez?'
+      - "Has terminado el juego.\n\xBFQuieres jugar de nuevo?"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/TOP_WIN/BUTTON/PLAY_AGAIN
+      TermType: 0
+      Description: 
+      Languages:
+      - Play again
+      - 'Jogar
+
+        outra vez'
+      - 'Jugar
+
+        de nuevo'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/NEWGAME/TITLE
+      TermType: 0
+      Description: 
+      Languages:
+      - New game
+      - Novo jogo
+      - Nuevo juego
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/NEWGAME/DESCRIPTION
+      TermType: 0
+      Description: 
+      Languages:
+      - Are you sure you want to start a new game?
+      - Tem a certeza que pretende iniciar um novo jogo?
+      - "\xBFSeguro que quieres empezar un nuevo juego?"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/NEWGAME/BUTTON/NO
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "N\xE3o"
+      - No
+      Flags: 000000
+      Languages_Touch: []
+    - Term: POPUP/NEWGAME/BUTTON/YES
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes
+      - Sim
+      - Si
+      Flags: 000000
+      Languages_Touch: []
+    - Term: MENU/PLAYER_STATS/VICTORIES
+      TermType: 0
+      Description: 
+      Languages:
+      - '{[VICTORY_NUMBER]} victories[i2p_One]{[VICTORY_NUMBER]} victory'
+      - "{[VICTORY_NUMBER]} vit\xF3rias[i2p_One]{[VICTORY_NUMBER]} vit\xF3ria"
+      - '{[VICTORY_NUMBER]} victorias[i2p_One]{[VICTORY_NUMBER]} victoria'
+      Flags: 000000
+      Languages_Touch: []
+    - Term: MENU/PLAYER_STATS/NO_VICTORIES
+      TermType: 0
+      Description: 
+      Languages:
+      - you have no victories
+      - "n\xE3o tem vit\xF3rias"
+      - no tiene victorias
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FONTS/REGULAR
+      TermType: 1
+      Description: 
+      Languages:
+      - Montserrat-Regular
+      - Montserrat-Regular
+      - Montserrat-Regular
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FONTS/MEDIUM
+      TermType: 1
+      Description: 
+      Languages:
+      - Montserrat-Medium
+      - Montserrat-Medium
+      - Montserrat-Medium
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FONTS/SEMIBOLD
+      TermType: 1
+      Description: 
+      Languages:
+      - Montserrat-SemiBold
+      - Montserrat-SemiBold
+      - Montserrat-SemiBold
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FONTS/BOLD
+      TermType: 1
+      Description: 
+      Languages:
+      - Montserrat-Bold
+      - Montserrat-Bold
+      - Montserrat-Bold
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FONTS/EXTRABOLD
+      TermType: 1
+      Description: 
+      Languages:
+      - Montserrat-ExtraBold
+      - Montserrat-ExtraBold
+      - Montserrat-ExtraBold
+      Flags: 000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English (United Kingdom)
+      Code: en-GB
+      Flags: 0
+    - Name: Portuguese (Portugal)
+      Code: pt-PT
+      Flags: 0
+    - Name: Spanish (Spain)
+      Code: es-ES
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: i18n/common.txt
+    Spreadsheet_LocalCSVSeparator: ;
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

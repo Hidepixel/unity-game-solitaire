@@ -1,0 +1,1 @@
+This script creates a menu item on the editor where you can build specific seninc builds or all seninc builds.
