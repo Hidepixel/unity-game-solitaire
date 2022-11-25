@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.sioslife.unity.core": {
-      "version": "https://github.com/Hidepixel/unity-package-core.git#v7.2.1",
+      "version": "https://github.com/Hidepixel/unity-package-core.git#development",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -9,7 +9,7 @@
         "com.sioslife.unity.localization": "1.0.0",
         "com.sioslife.unity.effects": "1.0.1"
       },
-      "hash": "20c04a9df72aa4dc0e43c9013f2edc0c52817805"
+      "hash": "6602d09f4d4a8f0adf1eda0d75141b3a646d8c03"
     },
     "com.sioslife.unity.effects": {
       "version": "https://github.com/Hidepixel/unity-package-core-effects.git#v1.0.5",

@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.sioslife.unity.core": "https://github.com/Hidepixel/unity-package-core.git#v7.2.1",
+    "com.sioslife.unity.core": "https://github.com/Hidepixel/unity-package-core.git#development",
     "com.sioslife.unity.effects": "https://github.com/Hidepixel/unity-package-core-effects.git#v1.0.5",
     "com.sioslife.unity.libs": "https://github.com/Hidepixel/unity-package-core-libs.git#v2.0.1",
     "com.sioslife.unity.localization": "https://github.com/Hidepixel/unity-package-core-localization.git#v1.1.0",

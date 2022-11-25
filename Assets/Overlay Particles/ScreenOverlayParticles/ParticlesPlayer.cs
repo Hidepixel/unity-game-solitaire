@@ -19,4 +19,13 @@ public class ParticlesPlayer : MonoBehaviour
 	{
 		particles.Stop();
 	}
+
+    public void Update()
+    {
+		if (Input.GetKeyDown(KeyCode.Space))
+			if (!particles.isPlaying)
+				particles.Play();
+			else
+				particles.Stop();
+	}
 }
